@@ -1,0 +1,12 @@
+För att problemsöka har jag tagit hjälp av "Verktyg för webbutvecklare" som 
+finns i webbläsaren. I CSS har jag tagit hjälp av boxmodellen som finns för att 
+förstå var padding och margins finns på de olika elementen. För att få en bättre
+bild av elementens placering och storlek och då för att rätta till misstag ger 
+jag dom olika bakgrunder. I javascript så använde jag mig mycket av consolen
+i "verktyg för webbutvecklare". Jag använde console.log för att se så varje 
+steg genererar rätt resultat.
+
+För att uppnå VG-kriterierna så har jag använt Bootstrap på kontakt-sidan.
+Jag använde det i kontaktformuläret främst. jag har även använt fontawesome 
+som bibliotek för ikoner som används i både footer och till iconerna som 
+genereras fram i random-väderappen.

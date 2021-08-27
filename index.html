@@ -1,0 +1,104 @@
+<!--Kommentar skrivs såhär-->
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cecilia Nilsson - Hem</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b625418779.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="grid-container">
+            <div class="empty-column"></div>
+            <div class="icon-column">
+                <div class="headericon">
+                    <a class="icontext" href="index.html">C</a>
+                </div>
+            </div>
+            <div class="nav-column">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HEM</a></li>
+                        <li><a href="#Portfolio">PORTFOLIO</a></li>
+                        <li><a href="contact.html">KONTAKT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="line"></div>
+    </header>
+    <main>
+        <div class="main_container">
+        <section class="start_container">
+            <img class="profileImg" src="images/cecilia-nilsson-profilbild-square.jpg" alt="Profilbild av Cecilia">
+            <div class="start_text">
+            <h1>Nyfiken och Kreativ 
+                <br>.Net-utvecklare</h1>
+            <p>Hej, mitt namn är Cecilia, om jag fick bestämma
+                skulle jag spendera mina dagar på en arbetsplats
+                där jag kan få utlopp för min kreativitet och mitt
+                intresse för problemlösning och teknik. Jag skulle
+                gärna få in lite trevligt sällskap samt en och annan
+                kopp te.
+            </p>
+        </div>
+        </section>
+    </div>
+    <div id="Portfolio" class="portfolio-container">
+        <h2>Portfolio</h2>
+        <div class="portfolio-cards">
+            <div class="portfolio-Card-1">
+                <h3>Random Väder</h3>
+                <p>En enkel app som tar fram ett random väder. Skapad med CSS, HTML och Javascript</p>
+                <div class="weatherapp">
+                    <p class="weather-text"></p>
+                    <i id="ic1" class="fas fa-sun"></i>
+                    <i id="ic2" class="fas fa-cloud"></i>
+                    <i id="ic3" class="fas fa-cloud-showers-heavy"></i>
+                    <i id="ic4" class="fas fa-bolt"></i>
+                </div>
+            </div>
+                <div class="portfolio-Card-1">
+                    <h3>Miniräknare</h3>
+                    <p>En miniräknare som är skapad med CSS, HTML och Javascript</p>
+                    <div class="calculator">
+                        <input type="text" class="calc-screen" value="" disabled />
+                        <div class="calc-buttons">
+                            <button type="button" class="operator" value="+">+</button>
+                            <button type="button" class="operator" value="-">-</button>
+                            <button type="button" class="operator" value="*">&times;</button>
+                            <button type="button" class="operator" value="/">&divide;</button>
+                            <button type="button" value="7">7</button>
+                            <button type="button" value="8">8</button>
+                            <button type="button" value="9">9</button>
+                            <button type="button" value="4">4</button>
+                            <button type="button" value="5">5</button>
+                            <button type="button" value="6">6</button>
+                            <button type="button" value="1">1</button>
+                            <button type="button" value="2">2</button>
+                            <button type="button" value="3">3</button>
+                            <button type="button" value="0">0</button>
+                            <button type="button" class="decimal" value=".">.</button>
+                            <button type="button" class="all-clear" value="all-clear">AC</button>
+                            <button type="button" class="equal-sign operator" value="=">=</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="nav_Socials">
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
